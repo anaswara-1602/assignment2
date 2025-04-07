@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #e2cece; ;
+}
+.login{
+    border: solid 1px black;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    border: seashell;
+    font-style: initial;
+}
+.header{
+    text-align: center;
+    font-weight: 600;
+}
+.log{
+
+    text-align: center;
+    font-weight: 500;
+    justify-content: center;
+}
